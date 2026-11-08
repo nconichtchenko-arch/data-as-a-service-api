@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: data-as-a-service-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=10.0.2.2
+      - DB_PORT=5432
+      - DB_NAME=dwh_marketplace
+      - DB_USER=dwh_user
+      - DB_PASSWORD=dwh_password
