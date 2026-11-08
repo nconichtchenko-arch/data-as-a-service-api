@@ -5,9 +5,11 @@ Pet-проект: микросервис на **FastAPI** для отдачи б
 ## 📸 Скриншоты
 
 **Swagger UI (документация API):**
+
 ![Swagger UI](assets/swagger.png)
 
 **Ответ API (выручка по дням):**
+
 ![API Response](assets/response.png)
 
 ## 🎯 Зачем это
